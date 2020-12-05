@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0C76CC257BD79D00081407 /* DadJokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C76CB257BD79D00081407 /* DadJokeApp.swift */; };
+		1F0C76CE257BD79D00081407 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C76CD257BD79D00081407 /* ContentView.swift */; };
+		1F0C76D0257BD7A100081407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C76CF257BD7A100081407 /* Assets.xcassets */; };
+		1F0C76D3257BD7A100081407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C76D2257BD7A100081407 /* Preview Assets.xcassets */; };
+		1F0C76DE257BD7A100081407 /* DadJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C76DD257BD7A100081407 /* DadJokeTests.swift */; };
+		1F0C76E9257BD7A200081407 /* DadJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C76E8257BD7A200081407 /* DadJokeUITests.swift */; };
+		1F0C76EE257BD7A200081407 /* DadJoke WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F0C76ED257BD7A200081407 /* DadJoke WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0C76F3257BD7A400081407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C76F2257BD7A400081407 /* Assets.xcassets */; };
+		1F0C76FA257BD7A500081407 /* DadJoke WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F0C76F9257BD7A500081407 /* DadJoke WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0C76FF257BD7A500081407 /* DadJokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C76FE257BD7A500081407 /* DadJokeApp.swift */; };
+		1F0C7701257BD7A500081407 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C7700257BD7A500081407 /* ContentView.swift */; };
+		1F0C7703257BD7A500081407 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C7702257BD7A500081407 /* NotificationController.swift */; };
+		1F0C7705257BD7A500081407 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C7704257BD7A500081407 /* NotificationView.swift */; };
+		1F0C7707257BD7A500081407 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C7706257BD7A500081407 /* ComplicationController.swift */; };
+		1F0C7709257BD7A800081407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C7708257BD7A800081407 /* Assets.xcassets */; };
+		1F0C770C257BD7A800081407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C770B257BD7A800081407 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0C76DA257BD7A100081407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0C76C0257BD79C00081407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0C76C7257BD79D00081407;
+			remoteInfo = DadJoke;
+		};
+		1F0C76E5257BD7A200081407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0C76C0257BD79C00081407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0C76C7257BD79D00081407;
+			remoteInfo = DadJoke;
+		};
+		1F0C76EF257BD7A200081407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0C76C0257BD79C00081407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0C76EC257BD7A200081407;
+			remoteInfo = "DadJoke WatchKit App";
+		};
+		1F0C76FB257BD7A500081407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0C76C0257BD79C00081407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0C76F8257BD7A500081407;
+			remoteInfo = "DadJoke WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0C7714257BD7A800081407 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F0C76FA257BD7A500081407 /* DadJoke WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C7718257BD7A800081407 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F0C76EE257BD7A200081407 /* DadJoke WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F0C76C8257BD79D00081407 /* DadJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C76CB257BD79D00081407 /* DadJokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeApp.swift; sourceTree = "<group>"; };
+		1F0C76CD257BD79D00081407 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0C76CF257BD7A100081407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0C76D2257BD7A100081407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F0C76D4257BD7A100081407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C76D9257BD7A100081407 /* DadJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C76DD257BD7A100081407 /* DadJokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeTests.swift; sourceTree = "<group>"; };
+		1F0C76DF257BD7A100081407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C76E4257BD7A200081407 /* DadJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C76E8257BD7A200081407 /* DadJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeUITests.swift; sourceTree = "<group>"; };
+		1F0C76EA257BD7A200081407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C76ED257BD7A200081407 /* DadJoke WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DadJoke WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C76F2257BD7A400081407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0C76F4257BD7A400081407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C76F9257BD7A500081407 /* DadJoke WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DadJoke WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C76FE257BD7A500081407 /* DadJokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeApp.swift; sourceTree = "<group>"; };
+		1F0C7700257BD7A500081407 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0C7702257BD7A500081407 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1F0C7704257BD7A500081407 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1F0C7706257BD7A500081407 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1F0C7708257BD7A800081407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0C770B257BD7A800081407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F0C770D257BD7A800081407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C770E257BD7A800081407 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0C76C5257BD79D00081407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76D6257BD7A100081407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76E1257BD7A200081407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76F6257BD7A500081407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0C76BF257BD79C00081407 = {
+			isa = PBXGroup;
+			children = (
+				1F0C76CA257BD79D00081407 /* DadJoke */,
+				1F0C76DC257BD7A100081407 /* DadJokeTests */,
+				1F0C76E7257BD7A200081407 /* DadJokeUITests */,
+				1F0C76F1257BD7A200081407 /* DadJoke WatchKit App */,
+				1F0C76FD257BD7A500081407 /* DadJoke WatchKit Extension */,
+				1F0C76C9257BD79D00081407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0C76C9257BD79D00081407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76C8257BD79D00081407 /* DadJoke.app */,
+				1F0C76D9257BD7A100081407 /* DadJokeTests.xctest */,
+				1F0C76E4257BD7A200081407 /* DadJokeUITests.xctest */,
+				1F0C76ED257BD7A200081407 /* DadJoke WatchKit App.app */,
+				1F0C76F9257BD7A500081407 /* DadJoke WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0C76CA257BD79D00081407 /* DadJoke */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76CB257BD79D00081407 /* DadJokeApp.swift */,
+				1F0C76CD257BD79D00081407 /* ContentView.swift */,
+				1F0C76CF257BD7A100081407 /* Assets.xcassets */,
+				1F0C76D4257BD7A100081407 /* Info.plist */,
+				1F0C76D1257BD7A100081407 /* Preview Content */,
+			);
+			path = DadJoke;
+			sourceTree = "<group>";
+		};
+		1F0C76D1257BD7A100081407 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76D2257BD7A100081407 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F0C76DC257BD7A100081407 /* DadJokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76DD257BD7A100081407 /* DadJokeTests.swift */,
+				1F0C76DF257BD7A100081407 /* Info.plist */,
+			);
+			path = DadJokeTests;
+			sourceTree = "<group>";
+		};
+		1F0C76E7257BD7A200081407 /* DadJokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76E8257BD7A200081407 /* DadJokeUITests.swift */,
+				1F0C76EA257BD7A200081407 /* Info.plist */,
+			);
+			path = DadJokeUITests;
+			sourceTree = "<group>";
+		};
+		1F0C76F1257BD7A200081407 /* DadJoke WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76F2257BD7A400081407 /* Assets.xcassets */,
+				1F0C76F4257BD7A400081407 /* Info.plist */,
+			);
+			path = "DadJoke WatchKit App";
+			sourceTree = "<group>";
+		};
+		1F0C76FD257BD7A500081407 /* DadJoke WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C76FE257BD7A500081407 /* DadJokeApp.swift */,
+				1F0C7700257BD7A500081407 /* ContentView.swift */,
+				1F0C7702257BD7A500081407 /* NotificationController.swift */,
+				1F0C7704257BD7A500081407 /* NotificationView.swift */,
+				1F0C7706257BD7A500081407 /* ComplicationController.swift */,
+				1F0C7708257BD7A800081407 /* Assets.xcassets */,
+				1F0C770D257BD7A800081407 /* Info.plist */,
+				1F0C770E257BD7A800081407 /* PushNotificationPayload.apns */,
+				1F0C770A257BD7A800081407 /* Preview Content */,
+			);
+			path = "DadJoke WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1F0C770A257BD7A800081407 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C770B257BD7A800081407 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0C76C7257BD79D00081407 /* DadJoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C7719257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke" */;
+			buildPhases = (
+				1F0C76C4257BD79D00081407 /* Sources */,
+				1F0C76C5257BD79D00081407 /* Frameworks */,
+				1F0C76C6257BD79D00081407 /* Resources */,
+				1F0C7718257BD7A800081407 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0C76F0257BD7A200081407 /* PBXTargetDependency */,
+			);
+			name = DadJoke;
+			productName = DadJoke;
+			productReference = 1F0C76C8257BD79D00081407 /* DadJoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0C76D8257BD7A100081407 /* DadJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C771C257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJokeTests" */;
+			buildPhases = (
+				1F0C76D5257BD7A100081407 /* Sources */,
+				1F0C76D6257BD7A100081407 /* Frameworks */,
+				1F0C76D7257BD7A100081407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0C76DB257BD7A100081407 /* PBXTargetDependency */,
+			);
+			name = DadJokeTests;
+			productName = DadJokeTests;
+			productReference = 1F0C76D9257BD7A100081407 /* DadJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F0C76E3257BD7A200081407 /* DadJokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C771F257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJokeUITests" */;
+			buildPhases = (
+				1F0C76E0257BD7A200081407 /* Sources */,
+				1F0C76E1257BD7A200081407 /* Frameworks */,
+				1F0C76E2257BD7A200081407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0C76E6257BD7A200081407 /* PBXTargetDependency */,
+			);
+			name = DadJokeUITests;
+			productName = DadJokeUITests;
+			productReference = 1F0C76E4257BD7A200081407 /* DadJokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1F0C76EC257BD7A200081407 /* DadJoke WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C7715257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke WatchKit App" */;
+			buildPhases = (
+				1F0C76EB257BD7A200081407 /* Resources */,
+				1F0C7714257BD7A800081407 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0C76FC257BD7A500081407 /* PBXTargetDependency */,
+			);
+			name = "DadJoke WatchKit App";
+			productName = "DadJoke WatchKit App";
+			productReference = 1F0C76ED257BD7A200081407 /* DadJoke WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F0C76F8257BD7A500081407 /* DadJoke WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C7711257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke WatchKit Extension" */;
+			buildPhases = (
+				1F0C76F5257BD7A500081407 /* Sources */,
+				1F0C76F6257BD7A500081407 /* Frameworks */,
+				1F0C76F7257BD7A500081407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DadJoke WatchKit Extension";
+			productName = "DadJoke WatchKit Extension";
+			productReference = 1F0C76F9257BD7A500081407 /* DadJoke WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0C76C0257BD79C00081407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1F0C76C7257BD79D00081407 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1F0C76D8257BD7A100081407 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1F0C76C7257BD79D00081407;
+					};
+					1F0C76E3257BD7A200081407 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1F0C76C7257BD79D00081407;
+					};
+					1F0C76EC257BD7A200081407 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1F0C76F8257BD7A500081407 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F0C76C3257BD79C00081407 /* Build configuration list for PBXProject "DadJoke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0C76BF257BD79C00081407;
+			productRefGroup = 1F0C76C9257BD79D00081407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0C76C7257BD79D00081407 /* DadJoke */,
+				1F0C76D8257BD7A100081407 /* DadJokeTests */,
+				1F0C76E3257BD7A200081407 /* DadJokeUITests */,
+				1F0C76EC257BD7A200081407 /* DadJoke WatchKit App */,
+				1F0C76F8257BD7A500081407 /* DadJoke WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0C76C6257BD79D00081407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C76D3257BD7A100081407 /* Preview Assets.xcassets in Resources */,
+				1F0C76D0257BD7A100081407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76D7257BD7A100081407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76E2257BD7A200081407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76EB257BD7A200081407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C76F3257BD7A400081407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76F7257BD7A500081407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C770C257BD7A800081407 /* Preview Assets.xcassets in Resources */,
+				1F0C7709257BD7A800081407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0C76C4257BD79D00081407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C76CE257BD79D00081407 /* ContentView.swift in Sources */,
+				1F0C76CC257BD79D00081407 /* DadJokeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76D5257BD7A100081407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C76DE257BD7A100081407 /* DadJokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76E0257BD7A200081407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C76E9257BD7A200081407 /* DadJokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C76F5257BD7A500081407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C7703257BD7A500081407 /* NotificationController.swift in Sources */,
+				1F0C7701257BD7A500081407 /* ContentView.swift in Sources */,
+				1F0C7707257BD7A500081407 /* ComplicationController.swift in Sources */,
+				1F0C76FF257BD7A500081407 /* DadJokeApp.swift in Sources */,
+				1F0C7705257BD7A500081407 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0C76DB257BD7A100081407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0C76C7257BD79D00081407 /* DadJoke */;
+			targetProxy = 1F0C76DA257BD7A100081407 /* PBXContainerItemProxy */;
+		};
+		1F0C76E6257BD7A200081407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0C76C7257BD79D00081407 /* DadJoke */;
+			targetProxy = 1F0C76E5257BD7A200081407 /* PBXContainerItemProxy */;
+		};
+		1F0C76F0257BD7A200081407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0C76EC257BD7A200081407 /* DadJoke WatchKit App */;
+			targetProxy = 1F0C76EF257BD7A200081407 /* PBXContainerItemProxy */;
+		};
+		1F0C76FC257BD7A500081407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0C76F8257BD7A500081407 /* DadJoke WatchKit Extension */;
+			targetProxy = 1F0C76FB257BD7A500081407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F0C770F257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0C7710257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1F0C7712257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJoke WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DadJoke WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		1F0C7713257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJoke WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DadJoke WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		1F0C7716257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				IBSC_MODULE = DadJoke_WatchKit_Extension;
+				INFOPLIST_FILE = "DadJoke WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		1F0C7717257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				IBSC_MODULE = DadJoke_WatchKit_Extension;
+				INFOPLIST_FILE = "DadJoke WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		1F0C771A257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJoke/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DadJoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0C771B257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJoke/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DadJoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0C771D257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				INFOPLIST_FILE = DadJokeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadJoke.app/DadJoke";
+			};
+			name = Debug;
+		};
+		1F0C771E257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				INFOPLIST_FILE = DadJokeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadJoke.app/DadJoke";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0C7720257BD7A800081407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				INFOPLIST_FILE = DadJokeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadJoke;
+			};
+			name = Debug;
+		};
+		1F0C7721257BD7A800081407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z7L7VS352;
+				INFOPLIST_FILE = DadJokeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.andreasliebich.DadJokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadJoke;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0C76C3257BD79C00081407 /* Build configuration list for PBXProject "DadJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C770F257BD7A800081407 /* Debug */,
+				1F0C7710257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C7711257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C7712257BD7A800081407 /* Debug */,
+				1F0C7713257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C7715257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C7716257BD7A800081407 /* Debug */,
+				1F0C7717257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C7719257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C771A257BD7A800081407 /* Debug */,
+				1F0C771B257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C771C257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C771D257BD7A800081407 /* Debug */,
+				1F0C771E257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C771F257BD7A800081407 /* Build configuration list for PBXNativeTarget "DadJokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C7720257BD7A800081407 /* Debug */,
+				1F0C7721257BD7A800081407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0C76C0257BD79C00081407 /* Project object */;
+}
